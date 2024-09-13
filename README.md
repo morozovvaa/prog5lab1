@@ -16,13 +16,13 @@ def myfoo():
 
 3. Запуск сервера http в каталоге ```rootserver``` с файлом ```myremotemodule.py``` 
 ```sh
-python3 -m http.server
+python -m http.server
 ```
 
 
 4. Запуск файла activation_script.py
 ```sh
-python3 -i activation_script.py
+python -i activation_script.py
 ```
 
 5. При попытке импорта файла ```myremotemodule.py```, в котором размещена наша функция ```myfoo```, сейчас будет выведено ```ModuleNotFoundError: No module named 'myremotemodule'```
