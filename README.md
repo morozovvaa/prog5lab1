@@ -45,7 +45,7 @@ sys.path.append("http://localhost:8000")
 ![image](https://github.com/user-attachments/assets/e60ba692-a058-4a68-b5a6-6dd1d8d1587a)
 
 
-
+Запуск сервера
 ![image](https://github.com/user-attachments/assets/d14be88d-1faf-4bcf-85b9-a07c722fdf9a)  
 
 ![image](https://github.com/user-attachments/assets/b49d2e01-ea16-49c8-873d-e88cbc53b7eb)  
