@@ -32,7 +32,6 @@ python -i activation_script.py
 ```python
 sys.path.append("http://localhost:8000")
 ```
-![image](https://github.com/user-attachments/assets/5e393f1f-e02d-4670-8ff9-cf50f153d212)
 
 ![image](https://github.com/user-attachments/assets/2cc5f107-4ba6-4c5b-b16e-853922b530b5)
 
