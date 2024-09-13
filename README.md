@@ -41,6 +41,9 @@ sys.path.append("http://localhost:8000")
 
 В ```path_hooks``` будет содержатся наша функция ```url_hook```. 
 
+![image](https://github.com/user-attachments/assets/34793dce-7cb0-45c6-8bfd-85a720d2de6f)  
+
+
 7. Вывод программы, при попытке импортировать модуль, если сервер не запущен
 ![image](https://github.com/user-attachments/assets/e60ba692-a058-4a68-b5a6-6dd1d8d1587a)
 
@@ -48,9 +51,6 @@ sys.path.append("http://localhost:8000")
 Запуск сервера
 ![image](https://github.com/user-attachments/assets/d14be88d-1faf-4bcf-85b9-a07c722fdf9a)  
 
-![image](https://github.com/user-attachments/assets/b49d2e01-ea16-49c8-873d-e88cbc53b7eb)  
-
-![image](https://github.com/user-attachments/assets/34793dce-7cb0-45c6-8bfd-85a720d2de6f)  
 
 ![image](https://github.com/user-attachments/assets/68dba27f-04dd-4894-b844-cfe718d6e3b8)  
 
