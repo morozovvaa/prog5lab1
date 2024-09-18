@@ -63,12 +63,36 @@ sys.path.append("http://localhost:8000")
 
 ## Часть 2.
 
-12. Реализовать загрузку **пакета**, разобравшись с аргументами функции spec_from_loader и внутренним устройством импорта пакетов.
-from package.test import myfoo
+Реализовать загрузку **пакета**, разобравшись с аргументами функции spec_from_loader и внутренним устройством импорта пакетов.
+1. Путь http://localhost:8000
+![image](https://github.com/user-attachments/assets/7d0e3f3a-178c-4409-8ce7-4cc60a504f0b)
+2. Путь http://localhost:8000/package/
+![image](https://github.com/user-attachments/assets/8720354c-5a27-4c05-83fa-a86b90ef2095)
+3.
+Создание в папке ```rootserver``` пакета ```package```, в котором содержится файл ```__init__.py``` и файл ```moduleinpackage.py```, который будет импортироваться, со следующим кодом:
+```python
+def myfoo():
+    author = "Diana" 
+    print(f"{author}'s package is imported")
+```
 
-myfoo()
+4. Создание файла ```act_script.py``` с содержимым функций ```url_hook``` и классов ```URLLoader```, ```URLFinder```
+5. Запуск сервера http в каталоге ```rootserver``` с пакетом ```package``` 
+```sh
+python -m http.server
+```
 
+6. Запуск файла act_script.py
+```sh
+python -i act_script.py
+```
 
+7. Выполнение кода, добавив путь, где располагается модуль, приведет к срабатыванию "кастомного" ```URLLoader```.
+```python
+sys.path.append("http://localhost:8000")
+```
+
+![image](https://github.com/user-attachments/assets/d4ca59d3-a889-494d-8f48-6f4353533f48)
 
 
 
