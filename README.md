@@ -67,7 +67,8 @@ sys.path.append("http://localhost:8000")
 1. Путь http://localhost:8000  
 ![image](https://github.com/user-attachments/assets/7d0e3f3a-178c-4409-8ce7-4cc60a504f0b)  
 2. Путь http://localhost:8000/package/    
-![image](https://github.com/user-attachments/assets/8720354c-5a27-4c05-83fa-a86b90ef2095)  
+![image](https://github.com/user-attachments/assets/8720354c-5a27-4c05-83fa-a86b90ef2095)
+
 3.Создание в папке ```rootserver``` пакета ```package```, в котором содержится файл ```__init__.py``` и файл ```moduleinpackage.py```, который будет импортироваться, со следующим кодом:
 ```python
 def myfoo():
